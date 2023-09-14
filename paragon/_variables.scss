@@ -1,2 +1,14 @@
-// Use this file to set SASS variables for @edx/paragon
-// See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
+$white:    #FFFFFF !default;
+$gray-700: #101820 !default;
+
+$primary: #4329BC !default;
+$secondary: $gray-700 !default;
+$body-bg-color: #F9F8F5 !default;
+$brand: #EA6852 !default;
+
+$yiq-text-light:            $white !default;
+$yiq-text-dark:             $gray-700 !default;
+
+$body-bg:                   $body-bg-color !default;
+
+$headings-color:            $gray-700 !default;
