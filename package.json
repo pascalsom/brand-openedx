@@ -15,4 +15,7 @@
   "publishConfig": {
     "access": "public"
   }
+   "release": {
+    "branches": ["master", "sdaia-dev"]
+  }
 }
