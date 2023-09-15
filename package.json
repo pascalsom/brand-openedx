@@ -14,7 +14,7 @@
   "homepage": "https://github.com/openedx/brand-openedx#readme",
   "publishConfig": {
     "access": "public"
-  }
+  },
    "release": {
     "branches": ["master", "sdaia-dev"]
   }
