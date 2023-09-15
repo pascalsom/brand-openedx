@@ -16,6 +16,9 @@
     "access": "public"
   },
    "release": {
-    "branches": ["master", "sdaia-dev"]
+    "branches": [
+      { name: "master" },
+      { name: "sdaia-dev" }
+    ]
   }
 }
