@@ -1,9 +1,8 @@
 name: Release
 on:
-  push:
-    branches:
-      - master
-      - sdaia-dev
+  release:
+    types: [published]
+    
 jobs:
   release:
     name: Release
