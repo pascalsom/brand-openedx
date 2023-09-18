@@ -1,14 +1,13 @@
 $white:    #FFFFFF !default;
 $gray-700: #101820 !default;
 
-$primary: #4329BC !default;
+$primary: #1D355E !default;
 $secondary: $gray-700 !default;
-$body-bg-color: #F9F8F5 !default;
-$brand: #EA6852 !default;
+$brand: $primary;
 
 $yiq-text-light:            $white !default;
 $yiq-text-dark:             $gray-700 !default;
 
-$body-bg:                   $body-bg-color !default;
+$body-bg:                   $white !default;
 
 $headings-color:            $gray-700 !default;
