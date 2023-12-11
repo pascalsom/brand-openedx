@@ -14,5 +14,11 @@
   "homepage": "https://github.com/edly-io/brand-openedx#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "release": {
+    "tagFormat": "indigo-${version}",
+    "branches": [
+      "quince/indigo"
+    ]
   }
 }
