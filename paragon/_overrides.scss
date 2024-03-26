@@ -104,7 +104,7 @@ html {
                     border-radius: 6px;
                     border: none;
                     @include media-breakpoint-down(md) {
-                        width: 180px;
+                        width: 100%;
                     }
                 }
             }
@@ -309,7 +309,7 @@ div[data-learner-type=b2c_learner] {
                     font-weight: 500;
                     padding: 0 0 16px;
                     margin: 0 32px -1px 0;
-                    color: #6B7280;
+                    color: #515661;
                     background: none !important;
                     &:before {
                         display: none;
@@ -379,7 +379,7 @@ div[data-learner-type=b2c_learner] {
                 font-size: 14px;
                 line-height: 20px;
                 a {
-                    color: #6B7280 !important;
+                    color: #515661 !important;
                     font-weight: 500;
                 }
                 button {
@@ -387,7 +387,7 @@ div[data-learner-type=b2c_learner] {
                     background: none !important;
                     padding: 0 !important;
                     line-height: 20px;
-                    color: #6B7280 !important;
+                    color: #515661 !important;
                     border: none !important;
                     font-weight: 500;
                 }
@@ -794,7 +794,7 @@ div[data-learner-type=b2c_learner] {
             display: none;
         }
         p {
-            color: #6B7280 !important;
+            color: #515661 !important;
             font-size: 14px;
             line-height: 20px;
             text-align: center;
@@ -1114,7 +1114,7 @@ div[data-learner-type=b2c_learner] {
                 }
                 .org {
                     font-size: 12px;
-                    color: #6B7280;
+                    color: #515661;
                 }
             }
        }
@@ -1392,7 +1392,7 @@ footer.tutor-container {
             position: relative;
             font-size: 12px;
             line-height: 18px;
-            color: #6B7280;
+            color: #515661;
             &:first-child {
                 padding-left: 0;
             }
@@ -1406,7 +1406,7 @@ footer.tutor-container {
                     width: 1px;
                     height: 29px;
                     margin: -14px 0 0;
-                    background: #6B7280;;
+                    background: #515661;;
                 }
             }
         }
@@ -1569,7 +1569,7 @@ footer.tutor-container {
                             padding: 0 21px 18px;
                             .small {
                                 font-size: 12px;
-                                color: #6B7280;
+                                color: #515661;
                             }
                         }
                         .pgn__card-footer {
@@ -1728,7 +1728,7 @@ footer.tutor-container {
     border: none;
     padding: 30px 15px;
     font-size: 14px;
-    color: #6B7280;
+    color: #515661;
     img {
         width: 170px;
         margin: 0 auto 50px;
@@ -1775,7 +1775,7 @@ footer.tutor-container {
         }
         p{
             font-size: 14px;
-            color: #6B7280;
+            color: #515661;
         }
         .pgn__action-row {
             flex-direction: row;
@@ -2112,7 +2112,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
                         font-weight: normal !important;
                         font-size: 14px;
                         line-height: 20px;
-                        color: #6B7280;
+                        color: #515661;
                     }
                 }
                 .badge.badge-primary {
@@ -2281,7 +2281,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
                         margin: 0 0 5px;
                     }
                     p {
-                        color: #6B7280;
+                        color: #515661;
                         margin: 0;
                         font-size: 12px;
                         line-height: 16px;
@@ -2395,7 +2395,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
                     p {
                         .small.text-muted {
                             font-size: 16px;
-                            color: #6B7280 !important;
+                            color: #515661 !important;
                             line-height: 20px;
                         }
                     }
@@ -2535,7 +2535,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
     .account-section {
         font-size: 14px;
         line-height: 20px;
-        color: #6B7280;
+        color: #515661;
         p {
             margin: 0 0 15px;
         }
@@ -2695,7 +2695,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
             p.text-truncate, p[data-hj-suppress="true"] {
                 font-weight: 600;
                 font-size: 16px;
-                color: #6B7280;
+                color: #515661;
                 margin: 5px 0 0 !important;
                 button {
                     font-weight: 600;
@@ -2733,7 +2733,7 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
                 p {
                     .small.text-muted {
                         font-size: 16px;
-                        color: #6B7280 !important;
+                        color: #515661 !important;
                         line-height: 20px;
                     }
                 }
