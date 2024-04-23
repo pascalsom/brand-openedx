@@ -458,21 +458,21 @@
         }
         .btn.btn-inverse-primary {
             font-size: 14px;
-                    font-weight: 500;
-                    line-height: 22px;
-                    padding: 20px 0 !important;
-                    color: #374151;
-                    margin: 0 16px 0 0;
-                    display: block;
-                    border: none !important;
-                    border-bottom: 2px solid transparent !important;
-                    background: none !important;
-                    border-radius: 0 !important;
-                    &.course-link, &:hover {
-                        color: $text-color;
-                        text-decoration: none;
-                        border-bottom: 2px solid $primary !important;
-                    }
+            font-weight: 500;
+            line-height: 22px;
+            padding: 20px 0 !important;
+            color: #374151;
+            margin: 0 16px 0 0;
+            display: block;
+            border: none !important;
+            border-bottom: 2px solid transparent !important;
+            background: none !important;
+            border-radius: 0 !important;
+            &.course-link, &:hover {
+                color: $text-color;
+                text-decoration: none;
+                border-bottom: 2px solid $primary !important;
+            }
         }
         .btn-icon.btn-icon-inverse-primary {
             color: #767676;

@@ -146,7 +146,7 @@ footer.tutor-container {
                             }
                             .course-card-banners {
                                 display: block !important;
-                                .alert-content {
+                                .alert-content, .related-programs-banner {
                                     padding: 2px 16px;
                                     font-size: 12px;
                                     line-height: 20px;
@@ -155,8 +155,23 @@ footer.tutor-container {
                                         width: 20px;
                                     }
                                     svg {
-                                        width: 20px;
-                                        height: 20px;
+                                        width: 21px;
+                                        height: 24px;
+                                    }
+                                    .related-programs-list-container {
+                                        li {
+                                            margin: 0 0 2px !important;
+                                        }
+                                    }
+                                }
+                                .alert-success {
+                                    .alert-message-content {
+                                        a {
+                                            background: none;
+                                            padding: 0;
+                                            font-size: inherit;
+                                            line-height: inherit;
+                                        }
                                     }
                                 }
                             }
