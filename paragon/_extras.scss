@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .text-dark-700 {
 .text-gray-700 {
     color: $text-color-primary !important;
 }
+.bg-white {
+    background: $body-bg !important;
+}
 .alert-warning {
     background: $primary-light;
 }
@@ -197,6 +200,7 @@ a.course-card-title {
     color: $text-color-primary !important;
 }
 #root {
+    overflow-x: hidden;
     input:-webkit-autofill,
     input:-webkit-autofill:hover, 
     input:-webkit-autofill:focus, 

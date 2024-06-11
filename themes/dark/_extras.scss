@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .text-success {
     color: $success !important;
 }
+.bg-white {
+    background: $body-bg !important;
+}
 .react-loading-skeleton {
     --base-color: #36383B;
     --highlight-color: #000;

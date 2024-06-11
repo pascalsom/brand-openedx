@@ -2,7 +2,7 @@
 
 #root #courseTabsNavigation {
     padding: 20px 15px !important;
-    max-width: 1090px;
+    max-width: 1600px;
     margin: 0 auto;
     width: 100%;
     border: none;
@@ -11,7 +11,7 @@
     }
 }
 #root .header-action-bar {
-max-width: 1090px;
+max-width: 1600px;
 margin: 0 auto;
 width: 100%;
 padding: 0 15px;
@@ -86,9 +86,13 @@ position: static;
         border: none;
         border-radius: 6px;
         .form-control {
-        background: $primary-light !important;
-        padding-left: 0;
-        font-size: 14px;
+            background: $primary-light !important;
+            padding-left: 0;
+            font-size: 14px;
+        }
+        .pointer-cursor-hover {
+            margin: 0 !important;
+            padding: 0 0.75rem !important;
         }
     }
     }
@@ -98,7 +102,7 @@ position: static;
 margin: 0 0 30px;
 }
 #root .header-action-bar + .d-flex.flex-row.position-relative {
-max-width: 1090px;
+max-width: 1600px;
 margin: 0 auto;
 padding: 0 15px 30px;
 width: 100%;

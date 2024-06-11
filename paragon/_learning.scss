@@ -25,6 +25,19 @@
         .text-success {
             color: $primary !important;
         }
+        .align-middle.col-6 {
+            padding-left: 0;
+        }
+        .d-flex.row {
+            .col-7.ml-3.text-dark-500 {
+                flex: 0 0 83.33333333%;
+                max-width: 83.33333333%;
+            }
+            .row {
+                margin: 0;
+                padding: 0 0 0 40px;
+            }
+        }
     }
     .collapsible-body {
         padding: 0 0 0 56px;
@@ -117,7 +130,16 @@
                 color: $text-color;
             }
         }
+        .col-12.col-md-auto.p-0 {
+            .btn {
+                font-size: 16px !important;
+            }
+        }
     }
+}
+#root .course-outline-tab .col-12.col-md-auto.p-0 .btn {
+    background: none !important;
+    color: $primary !important;
 }
 .course-tabs-navigation {
     padding-top: 20px;
@@ -183,6 +205,14 @@ div[data-learner-type=b2c_learner] {
                     }
                 }
             }
+        }
+    }
+}
+#courseHome-dates {
+    .small {
+        font-size: 14px !important;
+        .font-weight-bold {
+            font-weight: 400 !important;
         }
     }
 }

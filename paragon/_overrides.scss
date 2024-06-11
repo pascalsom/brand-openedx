@@ -11,7 +11,7 @@ html {
     overflow-x: hidden;
 }
 .container-xl {
-    max-width: 1090px !important;
+    max-width: 1600px !important;
     padding-left: 15px !important;
     padding-right: 15 !important;
 }
@@ -264,7 +264,9 @@ html {
         }
     }
 }
-
+#root .unit-container {
+    max-width: 100% !important;
+}
 // modal style
 
 .pgn__modal.pgn__modal-default {
