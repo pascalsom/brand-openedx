@@ -9,6 +9,11 @@
     .container-xl {
         padding: 0 !important;
     }
+    + .container-xl {
+        .position-relative.mb-4 {
+            margin: 0 !important;
+        }
+    }
 }
 #root .header-action-bar {
 max-width: 1600px;
@@ -48,7 +53,7 @@ position: static;
             padding: 9px 12px;
         }
         &:hover {
-            background: $primary-light;
+            background: $primary-light !important;
         }
         &.active {
             background: $primary !important;
@@ -82,6 +87,7 @@ position: static;
         display: none !important;
     }
     form {
+        background: none;
         flex-flow: row-reverse;
         border: none;
         border-radius: 6px;

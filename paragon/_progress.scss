@@ -1,5 +1,6 @@
 // progress page style
 .course-tabs-navigation + .container-xl {
+    min-height: calc(100vh - 300px);
     >.mb-4.justify-content-between {
         h1 {
             font-weight: 800;

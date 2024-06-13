@@ -1,5 +1,8 @@
 // profile page style
 .profile-page {
+    @include media-breakpoint-up(lg) {
+        min-height: calc(100vh - 142px);
+    }
     .form-control {
         padding: 6px 10px;
         font-size: 14px;

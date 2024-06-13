@@ -171,9 +171,16 @@ div[data-testid=instructor-toolbar] {
         }
     }
 }
-.unit-navigation .previous-button {
-    border-color: $text-color-primary;
-    color: $text-color-primary;
+.unit-navigation {
+    .previous-button {
+        border-color: $text-color-primary;
+        color: $text-color-primary !important;
+        background: none !important;
+    }
+    .next-button {
+        background: none !important;
+        color: $primary !important;
+    }
 }
 .react-loading-skeleton {
     --base-color: #36383B;
@@ -200,6 +207,11 @@ a.course-card-title {
     color: $text-color-primary !important;
 }
 #root {
+    .btn {
+        &:before {
+            border-color: $text-color-primary !important;
+        }
+    }
     overflow-x: hidden;
     input:-webkit-autofill,
     input:-webkit-autofill:hover, 
@@ -558,6 +570,14 @@ footer.tutor-container .copyright-site {
         border-left: 8px solid $primary-light;
         background: none !important;
     }
+    .collapsible-trigger {
+        .btn-icon-primary {
+            &:hover, &:active, &:focus {
+                color: $btn-color;
+                background: $primary;
+            }
+        }
+    }
 }
 .btn-outline-primary:hover {
     background-color: transparent;
@@ -906,6 +926,11 @@ svg {
         fill: transparent !important;
     }
 }
+.grade-bar {
+    .grade-bar--current-non-passing {
+        fill: $danger;
+    }
+}
 .course-tabs-navigation + .container-xl {
     >.row {
         >.col-12.col-md-8.p-0 {
@@ -914,6 +939,9 @@ svg {
                 border-left: 8px solid $primary-light !important;
                 &.grades {
                     border: none !important;
+                    .btn-icon.btn-icon-primary {
+                        background: none !important;
+                    }
                 }
             }
         }
@@ -982,8 +1010,17 @@ svg {
 
 // Discussion style
 
-#root #courseTabsNavigation {
-    background: none;
+#root {
+    #courseTabsNavigation {
+        background: none;
+    }
+    .btn-icon.btn-icon-primary.post-footer-icon-dimentions {
+        background: none !important;
+        color: $text-color !important;
+        border: none !important;
+        outline: none;
+        box-shadow: none;
+    }
 }
 #root .header-action-bar {
     background: none;
@@ -1063,6 +1100,10 @@ svg {
         }
     }
     .flex-column.position-sticky.d-flex {
+        .btn-icon.btn-icon-primary.btn-icon-inline {
+            background: none !important;
+            color: $text-color !important;
+        }
         
         .pgn-transition-replace-group {
         .collapsible-body {
@@ -1115,6 +1156,9 @@ svg {
         }
     }
     .discussion-posts {
+        .border-light-400 {
+            border-color: $primary-light !important;
+        }
         .d-flex.flex-row.border-bottom.border-light-400 {
             font-size: 14px;
             button {
@@ -1209,6 +1253,10 @@ input::placeholder {
 }
 .popover {
     background: $primary-light;
+    color: $text-color;
+    * {
+        color: $text-color;
+    }
     &.bs-popover-top {
         .arrow:before, .arrow:after  {
             border-top-color: $primary-light;
@@ -1226,4 +1274,56 @@ button.p-2.btn.btn-inline {
 }
 .sequence-navigation .btn.complete {
     background: $primary-light;
+}
+div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
+    li {
+        &.dates-day.pb-4 {
+            .dates-dot {
+                background: $primary-light;
+                &.border {
+                    &.border-gray-900 {
+                        background: $primary-light !important;
+                    }
+                    &.bg-warning-300 {
+                        background: $primary-light !important;
+                    }
+                }
+            }
+        }
+        &:first-child {
+            &.dates-day.pb-4 {
+                .dates-dot {
+                    &.border {
+                        &.border-gray-900 {
+                            &:before {
+                                border-color: $btn-color
+                            }
+                        }
+                        &.bg-warning-300 {
+                            background: $primary-light !important;
+                        }
+                    }
+                }
+            }
+        }
+        &:nth-child(2) {
+            &.dates-day.pb-4 {
+                .dates-dot {
+                    &.border {
+                        &.border-gray-900 {
+                            &:before {
+                                border-color: $btn-color;
+                            }
+                        }
+                        &.bg-warning-300 {
+                            background: $primary-light !important;
+                            &:before {
+                                display: none !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

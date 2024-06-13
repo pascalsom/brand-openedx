@@ -50,11 +50,11 @@ html {
                 }
             }
         }
-        + div.d-flex.ml-auto {
+        + div.d-flex.ml-auto, + .w-100.d-flex div.d-flex.ml-auto {
             position: absolute;
             right: 0;
             top: -22px;
-            .mt-3 {
+            .mt-3, .ml-1, >div {
                 margin: 0 !important;
                 border: none !important;
                 &:first-child {
@@ -133,12 +133,18 @@ html {
                 }
             }
         }
+         + .w-100.d-flex div.d-flex.ml-auto {
+            @media only screen and (max-width: 576px) {
+                position: static !important;
+                padding: 10px 0;
+            }
+        }
     }
     #courseware-sequenceNavigation {
         @media only screen and (max-width: 576px) {
             width: calc(100% - 92px) !important;
         }
-        + div.d-flex.ml-auto{
+        + div.d-flex.ml-auto {
             position: absolute;
             right: 0;
             top: 9px;
@@ -255,7 +261,7 @@ html {
             }
             .unit-navigation {
                 max-width: 226px;
-                button {
+                button, a {
                     svg {
                         display: none;
                     }
