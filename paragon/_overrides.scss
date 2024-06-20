@@ -18,6 +18,9 @@ html {
 
 // detail page
 #root {
+    .x-small {
+        font-size: 14px;
+    }
     nav[aria-label=breadcrumb] {
         max-width: 100% !important;
         flex: 0 0 100% !important;
@@ -79,6 +82,7 @@ html {
                     }
                 }
                 button {
+                    height: auto;
                     padding: 5px;
                     border: 1px solid #D1D5DB !important;
                     position: relative;
@@ -239,6 +243,7 @@ html {
                     border-top: none !important;
                 }
                 .sequence-navigation-tabs {
+                    overflow-y: hidden;
                     button {
                         border-top: none;
                         &.complete {

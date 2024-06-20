@@ -209,6 +209,11 @@ div[data-learner-type=b2c_learner] {
     }
 }
 #courseHome-dates {
+    a {
+        &:hover {
+            color: $primary;
+        }
+    }
     .small {
         font-size: 14px !important;
         .font-weight-bold {
