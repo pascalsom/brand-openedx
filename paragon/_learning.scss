@@ -81,6 +81,12 @@
             line-height: 24px;
             border-radius: 6px;
             border: none;
+            &.inline-link {
+                background: none;
+                padding: 0;
+                font-size: inherit;
+                line-height: inherit;
+            }
         }
     }
     .course-outline-tab {

@@ -316,6 +316,7 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 20px;
+            height: auto !important;
             @include media-breakpoint-down(md) {
                 padding: 0 !important;
                 background: none !important;
