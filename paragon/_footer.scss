@@ -429,3 +429,15 @@ footer.tutor-container {
         }
     }
 }
+#course-list-active-filters {
+    .pgn__chip.pgn__chip-light {
+        background: $primary;
+        * {
+            color: white;
+            fill: white;
+        }
+    }
+    .btn.btn-link {
+        font-size: 14px;
+    }
+}

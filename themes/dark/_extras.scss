@@ -1328,3 +1328,11 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
         }
     }
 }
+#course-list-active-filters {
+    .pgn__chip.pgn__chip-light {
+        * {
+            color: $btn-color;
+            fill: $btn-color;
+        }
+    }
+}
