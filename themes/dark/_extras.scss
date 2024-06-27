@@ -1336,3 +1336,8 @@ div[role=heading].h2 + .list-unstyled.m-0.mt-4.pt-2 {
         }
     }
 }
+section[data-testid=sidebar-NOTIFICATIONS] {
+    &.border-light-400 {
+        border-color: $primary-light !important;
+    }
+}
