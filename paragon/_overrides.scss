@@ -372,6 +372,7 @@ html {
         }
     }
 }
+
 @import "./header";
 @import "./footer";
 @import "./login";
@@ -382,8 +383,16 @@ html {
 @import "./account";
 @import "./profile";
 @import "./dates";
-@import "./extras";
 
+@include header;
+@include footer;
+@include login;
+@include progress;
+@include tour;
+@include learning;
+@include discussion;
+@include account;
+@include profile;
+@include dates;
 
-
-
+@import "./dark_theme";

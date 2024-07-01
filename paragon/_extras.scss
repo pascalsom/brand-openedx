@@ -1,4 +1,5 @@
-@media (prefers-color-scheme: dark) {
+@mixin extras {
+
     body {
         color: $text-color !important;
         background: $body-bg !important;
@@ -1348,4 +1349,6 @@
             border-color: $primary-light !important;
         }
     }
+
+    
 }

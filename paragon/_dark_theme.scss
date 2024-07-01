@@ -1,0 +1,39 @@
+@media (prefers-color-scheme: dark) {
+    
+    $primary: #AEC7F6;
+    $primary-light: #292A2C;
+    $light-dark: #374151;
+    $text-color: #F8F8F8;
+    $text-color-primary: #DDDFE2;
+    $border-color: #777792;
+    $light-overlay: #36383B;
+    $danger: #FFA07A;
+    $success: #54CF5E;
+    $btn-color: #112F6B;
+    $body-bg:#0D0D0E;
+    
+        
+    @import "./header";
+    @import "./footer";
+    @import "./login";
+    @import "./progress";
+    @import "./tour";
+    @import "./learning";
+    @import "./discussion";
+    @import "./account";
+    @import "./profile";
+    @import "./dates";
+    @import "./extras";
+
+    @include header;
+    @include footer;
+    @include login;
+    @include progress;
+    @include tour;
+    @include learning;
+    @include discussion;
+    @include account;
+    @include profile;
+    @include dates;
+    @include extras;    
+}
