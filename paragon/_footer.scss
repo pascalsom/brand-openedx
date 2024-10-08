@@ -23,6 +23,8 @@ footer.tutor-container {
         }
         .powered-area {
             margin: 0 0 10px;
+            width: 100%;
+            text-align: center;
             @include media-breakpoint-up(md) {
                 margin: 0 0 15px;
             }
@@ -38,8 +40,6 @@ footer.tutor-container {
         letter-spacing: -.3em;
         li {
             display: inline-block;
-            width: 100%;
-            text-align: center;
             vertical-align: middle;
             padding: 0 5px;
             letter-spacing: normal;
