@@ -38,27 +38,20 @@ footer.tutor-container {
         letter-spacing: -.3em;
         li {
             display: inline-block;
+            width: 100%;
+            text-align: center;
             vertical-align: middle;
             padding: 0 5px;
             letter-spacing: normal;
             position: relative;
-            font-size: 12px;
+            font-size: 16px;
             line-height: 18px;
             color: $text-color-primary;
-            &:first-child {
-                padding-left: 0;
-            }
-            &:last-child {
-                padding-left: 20px;
-                &:after {
-                    position: absolute;
-                    left: 5px;
-                    top: 50%;
-                    content: "";
-                    width: 1px;
-                    height: 29px;
-                    margin: -14px 0 0;
-                    background: $text-color-primary;;
+            a {
+                color: $light-dark;
+                text-decoration: none;
+                &:hover {
+                    color: $primary;
                 }
             }
         }
